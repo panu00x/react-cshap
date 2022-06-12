@@ -1,0 +1,297 @@
+2022-06-12 14:21:33.955 +07:00 [Information] Now listening on: "https://localhost:7159"
+2022-06-12 14:21:34.021 +07:00 [Information] Now listening on: "http://localhost:5017"
+2022-06-12 14:21:34.024 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-06-12 14:21:34.025 +07:00 [Information] Hosting environment: "Development"
+2022-06-12 14:21:34.025 +07:00 [Information] Content root path: "/Users/liu/Bcircle/React/react-test/src/TService/"
+2022-06-12 14:21:43.376 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/swagger/index.html - -
+2022-06-12 14:21:43.507 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/swagger/index.html - - - 200 - text/html;charset=utf-8 134.0848ms
+2022-06-12 14:21:43.876 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/swagger/v1/swagger.json - -
+2022-06-12 14:21:43.968 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 92.1606ms
+2022-06-12 14:21:49.659 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=sss - -
+2022-06-12 14:21:49.670 +07:00 [Information] Executing endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 14:21:49.704 +07:00 [Information] Route matched with "{action = \"Get\", controller = \"Test\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Get(System.String)" on controller "TService.Controllers.TestController" ("TService").
+2022-06-12 14:21:49.765 +07:00 [Information] Hello World Service : sss
+2022-06-12 14:21:49.772 +07:00 [Information] Executing "ObjectResult", writing value of type '"System.String"'.
+2022-06-12 14:21:49.779 +07:00 [Information] Executed action "TService.Controllers.TestController.Get (TService)" in 69.1382ms
+2022-06-12 14:21:49.780 +07:00 [Information] Executed endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 14:21:49.780 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=sss - - - 200 - text/plain;+charset=utf-8 121.1001ms
+2022-06-12 14:22:14.556 +07:00 [Information] Application is shutting down...
+2022-06-12 14:45:21.567 +07:00 [Information] Now listening on: "https://localhost:7159"
+2022-06-12 14:45:21.616 +07:00 [Information] Now listening on: "http://localhost:5017"
+2022-06-12 14:45:21.620 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-06-12 14:45:21.620 +07:00 [Information] Hosting environment: "Development"
+2022-06-12 14:45:21.621 +07:00 [Information] Content root path: "/Users/liu/Bcircle/React/react-test/src/TService/"
+2022-06-12 14:45:29.970 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/swagger/index.html - -
+2022-06-12 14:45:30.095 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/swagger/index.html - - - 200 - text/html;charset=utf-8 127.6390ms
+2022-06-12 14:45:30.479 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/swagger/v1/swagger.json - -
+2022-06-12 14:45:30.583 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 103.5369ms
+2022-06-12 14:45:33.331 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/ - -
+2022-06-12 14:45:33.370 +07:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"/Users/liu/Bcircle/React/react-test/src/TService/wwwroot/index.html"'
+2022-06-12 14:45:33.372 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/ - - - 200 148 text/html 40.7033ms
+2022-06-12 14:45:33.452 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/src.351cc451.css - -
+2022-06-12 14:45:33.463 +07:00 [Information] Sending file. Request path: '"/src.351cc451.css"'. Physical path: '"/Users/liu/Bcircle/React/react-test/src/TService/wwwroot/src.351cc451.css"'
+2022-06-12 14:45:33.463 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/src.351cc451.css - - - 200 690939 text/css 11.1807ms
+2022-06-12 14:45:33.469 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/src.ceb794d5.js - -
+2022-06-12 14:45:33.582 +07:00 [Information] Sending file. Request path: '"/src.ceb794d5.js"'. Physical path: '"/Users/liu/Bcircle/React/react-test/src/TService/wwwroot/src.ceb794d5.js"'
+2022-06-12 14:45:33.582 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/src.ceb794d5.js - - - 200 4235657 application/javascript 113.6274ms
+2022-06-12 14:45:43.421 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/api/Test?text=liu - -
+2022-06-12 14:45:43.424 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/api/Test?text=liu - - - 404 0 - 2.1317ms
+2022-06-12 14:45:53.217 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/api/Test?text=liu - -
+2022-06-12 14:45:53.217 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/api/Test?text=liu - - - 404 0 - 0.5348ms
+2022-06-12 14:45:55.374 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/api/Test?text=liu - -
+2022-06-12 14:45:55.375 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/api/Test?text=liu - - - 404 0 - 0.6078ms
+2022-06-12 14:45:56.287 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/api/Test?text=liu - -
+2022-06-12 14:45:56.288 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/api/Test?text=liu - - - 404 0 - 0.3817ms
+2022-06-12 14:46:10.708 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/swagger/index.html - -
+2022-06-12 14:46:10.709 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/swagger/index.html - - - 200 - text/html;charset=utf-8 0.7404ms
+2022-06-12 14:46:11.153 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/swagger/v1/swagger.json - -
+2022-06-12 14:46:11.155 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1.8848ms
+2022-06-12 14:46:19.298 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/api/Test/Get - -
+2022-06-12 14:46:19.304 +07:00 [Information] Executing endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 14:46:19.329 +07:00 [Information] Route matched with "{action = \"Get\", controller = \"Test\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Get(System.String)" on controller "TService.Controllers.TestController" ("TService").
+2022-06-12 14:46:19.348 +07:00 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2022-06-12 14:46:19.356 +07:00 [Information] Executed action "TService.Controllers.TestController.Get (TService)" in 19.9602ms
+2022-06-12 14:46:19.358 +07:00 [Information] Executed endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 14:46:19.358 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/api/Test/Get - - - 400 - application/problem+json;+charset=utf-8 59.7237ms
+2022-06-12 14:46:28.154 +07:00 [Information] Application is shutting down...
+2022-06-12 14:46:53.346 +07:00 [Information] Now listening on: "https://localhost:7159"
+2022-06-12 14:46:53.401 +07:00 [Information] Now listening on: "http://localhost:5017"
+2022-06-12 14:46:53.407 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-06-12 14:46:53.407 +07:00 [Information] Hosting environment: "Development"
+2022-06-12 14:46:53.407 +07:00 [Information] Content root path: "/Users/liu/Bcircle/React/react-test/src/TService/"
+2022-06-12 14:46:56.618 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/ - -
+2022-06-12 14:46:56.711 +07:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"/Users/liu/Bcircle/React/react-test/src/TService/wwwroot/index.html"'
+2022-06-12 14:46:56.713 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/ - - - 200 148 text/html 98.2173ms
+2022-06-12 14:46:56.762 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/src.b357bec4.js - -
+2022-06-12 14:46:56.772 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/src.351cc451.css - -
+2022-06-12 14:46:56.799 +07:00 [Information] Sending file. Request path: '"/src.351cc451.css"'. Physical path: '"/Users/liu/Bcircle/React/react-test/src/TService/wwwroot/src.351cc451.css"'
+2022-06-12 14:46:56.801 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/src.351cc451.css - - - 200 690939 text/css 28.9329ms
+2022-06-12 14:46:56.854 +07:00 [Information] Sending file. Request path: '"/src.b357bec4.js"'. Physical path: '"/Users/liu/Bcircle/React/react-test/src/TService/wwwroot/src.b357bec4.js"'
+2022-06-12 14:46:56.854 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/src.b357bec4.js - - - 200 4235661 application/javascript 91.8336ms
+2022-06-12 14:47:00.724 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=li1 - -
+2022-06-12 14:47:00.733 +07:00 [Information] Executing endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 14:47:00.760 +07:00 [Information] Route matched with "{action = \"Get\", controller = \"Test\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Get(System.String)" on controller "TService.Controllers.TestController" ("TService").
+2022-06-12 14:47:00.792 +07:00 [Information] Hello World Service : li1
+2022-06-12 14:47:00.799 +07:00 [Information] Executing "ObjectResult", writing value of type '"System.String"'.
+2022-06-12 14:47:00.808 +07:00 [Information] Executed action "TService.Controllers.TestController.Get (TService)" in 39.9809ms
+2022-06-12 14:47:00.810 +07:00 [Information] Executed endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 14:47:00.815 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=li1 - - - 200 - text/plain;+charset=utf-8 90.6664ms
+2022-06-12 14:47:15.834 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=liu - -
+2022-06-12 14:47:15.834 +07:00 [Information] Executing endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 14:47:15.835 +07:00 [Information] Route matched with "{action = \"Get\", controller = \"Test\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Get(System.String)" on controller "TService.Controllers.TestController" ("TService").
+2022-06-12 14:47:15.836 +07:00 [Information] Hello World Service : liu
+2022-06-12 14:47:15.836 +07:00 [Information] Executing "ObjectResult", writing value of type '"System.String"'.
+2022-06-12 14:47:15.836 +07:00 [Information] Executed action "TService.Controllers.TestController.Get (TService)" in 1.6443ms
+2022-06-12 14:47:15.837 +07:00 [Information] Executed endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 14:47:15.837 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=liu - - - 200 - text/plain;+charset=utf-8 3.0049ms
+2022-06-12 14:47:22.473 +07:00 [Information] Application is shutting down...
+2022-06-12 14:52:24.600 +07:00 [Information] Now listening on: "https://localhost:7159"
+2022-06-12 14:52:24.643 +07:00 [Information] Now listening on: "http://localhost:5017"
+2022-06-12 14:52:24.646 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-06-12 14:52:24.647 +07:00 [Information] Hosting environment: "Development"
+2022-06-12 14:52:24.647 +07:00 [Information] Content root path: "/Users/liu/Bcircle/React/react-test/src/TService/"
+2022-06-12 14:52:31.499 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/ - -
+2022-06-12 14:52:31.583 +07:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"/Users/liu/Bcircle/React/react-test/src/TService/wwwroot/index.html"'
+2022-06-12 14:52:31.585 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/ - - - 200 148 text/html 88.8820ms
+2022-06-12 14:52:31.627 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/src.351cc451.css - -
+2022-06-12 14:52:31.644 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/src.a527ca5c.js - -
+2022-06-12 14:52:31.664 +07:00 [Information] Sending file. Request path: '"/src.351cc451.css"'. Physical path: '"/Users/liu/Bcircle/React/react-test/src/TService/wwwroot/src.351cc451.css"'
+2022-06-12 14:52:31.665 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/src.351cc451.css - - - 200 690939 text/css 38.3072ms
+2022-06-12 14:52:31.778 +07:00 [Information] Sending file. Request path: '"/src.a527ca5c.js"'. Physical path: '"/Users/liu/Bcircle/React/react-test/src/TService/wwwroot/src.a527ca5c.js"'
+2022-06-12 14:52:31.778 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/src.a527ca5c.js - - - 200 4235700 application/javascript 134.5848ms
+2022-06-12 14:52:35.555 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=liu - -
+2022-06-12 14:52:35.562 +07:00 [Information] Executing endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 14:52:35.594 +07:00 [Information] Route matched with "{action = \"Get\", controller = \"Test\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Get(System.String)" on controller "TService.Controllers.TestController" ("TService").
+2022-06-12 14:52:35.659 +07:00 [Information] Hello World Service : liu
+2022-06-12 14:52:35.670 +07:00 [Information] Executing "ObjectResult", writing value of type '"System.String"'.
+2022-06-12 14:52:35.685 +07:00 [Information] Executed action "TService.Controllers.TestController.Get (TService)" in 70.5854ms
+2022-06-12 14:52:35.691 +07:00 [Information] Executed endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 14:52:35.692 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=liu - - - 200 - text/plain;+charset=utf-8 137.1761ms
+2022-06-12 14:52:42.667 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=liu - -
+2022-06-12 14:52:42.667 +07:00 [Information] Executing endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 14:52:42.668 +07:00 [Information] Route matched with "{action = \"Get\", controller = \"Test\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Get(System.String)" on controller "TService.Controllers.TestController" ("TService").
+2022-06-12 14:52:42.669 +07:00 [Information] Hello World Service : liu
+2022-06-12 14:52:42.670 +07:00 [Information] Executing "ObjectResult", writing value of type '"System.String"'.
+2022-06-12 14:52:42.670 +07:00 [Information] Executed action "TService.Controllers.TestController.Get (TService)" in 2.3785ms
+2022-06-12 14:52:42.671 +07:00 [Information] Executed endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 14:52:42.671 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=liu - - - 200 - text/plain;+charset=utf-8 4.2844ms
+2022-06-12 14:52:46.533 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=liu - -
+2022-06-12 14:52:46.533 +07:00 [Information] Executing endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 14:52:46.533 +07:00 [Information] Route matched with "{action = \"Get\", controller = \"Test\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Get(System.String)" on controller "TService.Controllers.TestController" ("TService").
+2022-06-12 14:52:46.534 +07:00 [Information] Hello World Service : liu
+2022-06-12 14:52:46.534 +07:00 [Information] Executing "ObjectResult", writing value of type '"System.String"'.
+2022-06-12 14:52:46.535 +07:00 [Information] Executed action "TService.Controllers.TestController.Get (TService)" in 0.6983ms
+2022-06-12 14:52:46.535 +07:00 [Information] Executed endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 14:52:46.535 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=liu - - - 200 - text/plain;+charset=utf-8 2.2066ms
+2022-06-12 14:53:03.622 +07:00 [Information] Application is shutting down...
+2022-06-12 14:53:28.348 +07:00 [Information] Now listening on: "https://localhost:7159"
+2022-06-12 14:53:28.391 +07:00 [Information] Now listening on: "http://localhost:5017"
+2022-06-12 14:53:28.394 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-06-12 14:53:28.395 +07:00 [Information] Hosting environment: "Development"
+2022-06-12 14:53:28.395 +07:00 [Information] Content root path: "/Users/liu/Bcircle/React/react-test/src/TService/"
+2022-06-12 14:53:32.025 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=liu - -
+2022-06-12 14:53:32.096 +07:00 [Information] Executing endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 14:53:32.120 +07:00 [Information] Route matched with "{action = \"Get\", controller = \"Test\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Get(System.String)" on controller "TService.Controllers.TestController" ("TService").
+2022-06-12 14:53:32.145 +07:00 [Information] Hello World Service : liu
+2022-06-12 14:53:32.151 +07:00 [Information] Executing "ObjectResult", writing value of type '"System.String"'.
+2022-06-12 14:53:32.162 +07:00 [Information] Executed action "TService.Controllers.TestController.Get (TService)" in 35.5667ms
+2022-06-12 14:53:32.164 +07:00 [Information] Executed endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 14:53:32.166 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=liu - - - 200 - text/plain;+charset=utf-8 144.7705ms
+2022-06-12 14:53:35.731 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/ - -
+2022-06-12 14:53:35.755 +07:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"/Users/liu/Bcircle/React/react-test/src/TService/wwwroot/index.html"'
+2022-06-12 14:53:35.755 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/ - - - 200 148 text/html 24.7511ms
+2022-06-12 14:53:35.791 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/src.351cc451.css - -
+2022-06-12 14:53:35.798 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/src.3ab3c12f.js - -
+2022-06-12 14:53:35.811 +07:00 [Information] Sending file. Request path: '"/src.351cc451.css"'. Physical path: '"/Users/liu/Bcircle/React/react-test/src/TService/wwwroot/src.351cc451.css"'
+2022-06-12 14:53:35.814 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/src.351cc451.css - - - 200 690939 text/css 23.4694ms
+2022-06-12 14:53:35.887 +07:00 [Information] Sending file. Request path: '"/src.3ab3c12f.js"'. Physical path: '"/Users/liu/Bcircle/React/react-test/src/TService/wwwroot/src.3ab3c12f.js"'
+2022-06-12 14:53:35.887 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/src.3ab3c12f.js - - - 200 4235649 application/javascript 88.7468ms
+2022-06-12 14:53:39.585 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=liu - -
+2022-06-12 14:53:39.585 +07:00 [Information] Executing endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 14:53:39.586 +07:00 [Information] Route matched with "{action = \"Get\", controller = \"Test\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Get(System.String)" on controller "TService.Controllers.TestController" ("TService").
+2022-06-12 14:53:39.586 +07:00 [Information] Hello World Service : liu
+2022-06-12 14:53:39.587 +07:00 [Information] Executing "ObjectResult", writing value of type '"System.String"'.
+2022-06-12 14:53:39.587 +07:00 [Information] Executed action "TService.Controllers.TestController.Get (TService)" in 1.3474ms
+2022-06-12 14:53:39.588 +07:00 [Information] Executed endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 14:53:39.588 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=liu - - - 200 - text/plain;+charset=utf-8 2.9217ms
+2022-06-12 14:53:46.232 +07:00 [Information] Application is shutting down...
+2022-06-12 14:57:34.399 +07:00 [Information] Now listening on: "https://localhost:7159"
+2022-06-12 14:57:34.444 +07:00 [Information] Now listening on: "http://localhost:5017"
+2022-06-12 14:57:34.448 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-06-12 14:57:34.448 +07:00 [Information] Hosting environment: "Development"
+2022-06-12 14:57:34.449 +07:00 [Information] Content root path: "/Users/liu/Bcircle/React/react-test/src/TService/"
+2022-06-12 14:57:37.038 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/ - -
+2022-06-12 14:57:37.255 +07:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"/Users/liu/Bcircle/React/react-test/src/TService/wwwroot/index.html"'
+2022-06-12 14:57:37.258 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/ - - - 200 148 text/html 225.8707ms
+2022-06-12 14:57:37.307 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/src.351cc451.css - -
+2022-06-12 14:57:37.328 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/src.a527ca5c.js - -
+2022-06-12 14:57:37.328 +07:00 [Information] Sending file. Request path: '"/src.351cc451.css"'. Physical path: '"/Users/liu/Bcircle/React/react-test/src/TService/wwwroot/src.351cc451.css"'
+2022-06-12 14:57:37.333 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/src.351cc451.css - - - 200 690939 text/css 26.1657ms
+2022-06-12 14:57:37.451 +07:00 [Information] Sending file. Request path: '"/src.a527ca5c.js"'. Physical path: '"/Users/liu/Bcircle/React/react-test/src/TService/wwwroot/src.a527ca5c.js"'
+2022-06-12 14:57:37.451 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/src.a527ca5c.js - - - 200 4235700 application/javascript 122.9338ms
+2022-06-12 14:57:39.734 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=scs - -
+2022-06-12 14:57:39.741 +07:00 [Information] Executing endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 14:57:39.770 +07:00 [Information] Route matched with "{action = \"Get\", controller = \"Test\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Get(System.String)" on controller "TService.Controllers.TestController" ("TService").
+2022-06-12 14:57:39.796 +07:00 [Information] Hello World Service : scs
+2022-06-12 14:57:39.799 +07:00 [Information] Executing "ObjectResult", writing value of type '"System.String"'.
+2022-06-12 14:57:39.808 +07:00 [Information] Executed action "TService.Controllers.TestController.Get (TService)" in 31.8758ms
+2022-06-12 14:57:39.809 +07:00 [Information] Executed endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 14:57:39.809 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=scs - - - 200 - text/plain;+charset=utf-8 74.7584ms
+2022-06-12 14:57:43.962 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=scs - -
+2022-06-12 14:57:43.963 +07:00 [Information] Executing endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 14:57:43.964 +07:00 [Information] Route matched with "{action = \"Get\", controller = \"Test\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Get(System.String)" on controller "TService.Controllers.TestController" ("TService").
+2022-06-12 14:57:43.965 +07:00 [Information] Hello World Service : scs
+2022-06-12 14:57:43.965 +07:00 [Information] Executing "ObjectResult", writing value of type '"System.String"'.
+2022-06-12 14:57:43.966 +07:00 [Information] Executed action "TService.Controllers.TestController.Get (TService)" in 1.6407ms
+2022-06-12 14:57:43.966 +07:00 [Information] Executed endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 14:57:43.966 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=scs - - - 200 - text/plain;+charset=utf-8 4.0722ms
+2022-06-12 14:57:49.507 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=scs - -
+2022-06-12 14:57:49.508 +07:00 [Information] Executing endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 14:57:49.508 +07:00 [Information] Route matched with "{action = \"Get\", controller = \"Test\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Get(System.String)" on controller "TService.Controllers.TestController" ("TService").
+2022-06-12 14:57:49.508 +07:00 [Information] Hello World Service : scs
+2022-06-12 14:57:49.509 +07:00 [Information] Executing "ObjectResult", writing value of type '"System.String"'.
+2022-06-12 14:57:49.510 +07:00 [Information] Executed action "TService.Controllers.TestController.Get (TService)" in 1.7078ms
+2022-06-12 14:57:49.510 +07:00 [Information] Executed endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 14:57:49.510 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=scs - - - 200 - text/plain;+charset=utf-8 3.0974ms
+2022-06-12 14:57:54.217 +07:00 [Information] Application is shutting down...
+2022-06-12 15:06:17.019 +07:00 [Information] Now listening on: "https://localhost:7159"
+2022-06-12 15:06:17.063 +07:00 [Information] Now listening on: "http://localhost:5017"
+2022-06-12 15:06:17.066 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-06-12 15:06:17.067 +07:00 [Information] Hosting environment: "Development"
+2022-06-12 15:06:17.067 +07:00 [Information] Content root path: "/Users/liu/Bcircle/React/react-test/src/TService/"
+2022-06-12 15:06:19.507 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/ - -
+2022-06-12 15:06:19.663 +07:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"/Users/liu/Bcircle/React/react-test/src/TService/wwwroot/index.html"'
+2022-06-12 15:06:19.704 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/src.351cc451.css - -
+2022-06-12 15:06:19.744 +07:00 [Information] Sending file. Request path: '"/src.351cc451.css"'. Physical path: '"/Users/liu/Bcircle/React/react-test/src/TService/wwwroot/src.351cc451.css"'
+2022-06-12 15:06:19.780 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/src.351cc451.css - - - 200 690939 text/css 75.9404ms
+2022-06-12 15:06:19.802 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/ - - - 200 148 text/html 302.4712ms
+2022-06-12 15:06:19.812 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/src.71f6de53.js - -
+2022-06-12 15:06:19.882 +07:00 [Information] Sending file. Request path: '"/src.71f6de53.js"'. Physical path: '"/Users/liu/Bcircle/React/react-test/src/TService/wwwroot/src.71f6de53.js"'
+2022-06-12 15:06:19.883 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/src.71f6de53.js - - - 200 4235701 application/javascript 70.0994ms
+2022-06-12 15:06:23.002 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=kkkkk - -
+2022-06-12 15:06:23.011 +07:00 [Information] Executing endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 15:06:23.037 +07:00 [Information] Route matched with "{action = \"Get\", controller = \"Test\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Get(System.String)" on controller "TService.Controllers.TestController" ("TService").
+2022-06-12 15:06:23.061 +07:00 [Information] Hello World Service : kkkkk
+2022-06-12 15:06:23.064 +07:00 [Information] Executing "ObjectResult", writing value of type '"System.String"'.
+2022-06-12 15:06:23.075 +07:00 [Information] Executed action "TService.Controllers.TestController.Get (TService)" in 28.7925ms
+2022-06-12 15:06:23.077 +07:00 [Information] Executed endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 15:06:23.077 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=kkkkk - - - 200 - text/plain;+charset=utf-8 75.5043ms
+2022-06-12 15:06:29.279 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=kkkkk - -
+2022-06-12 15:06:29.279 +07:00 [Information] Executing endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 15:06:29.280 +07:00 [Information] Route matched with "{action = \"Get\", controller = \"Test\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Get(System.String)" on controller "TService.Controllers.TestController" ("TService").
+2022-06-12 15:06:29.281 +07:00 [Information] Hello World Service : kkkkk
+2022-06-12 15:06:29.282 +07:00 [Information] Executing "ObjectResult", writing value of type '"System.String"'.
+2022-06-12 15:06:29.282 +07:00 [Information] Executed action "TService.Controllers.TestController.Get (TService)" in 1.754ms
+2022-06-12 15:06:29.282 +07:00 [Information] Executed endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 15:06:29.283 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=kkkkk - - - 200 - text/plain;+charset=utf-8 3.7539ms
+2022-06-12 15:06:36.101 +07:00 [Information] Application is shutting down...
+2022-06-12 15:09:16.083 +07:00 [Information] Now listening on: "https://localhost:7159"
+2022-06-12 15:09:16.131 +07:00 [Information] Now listening on: "http://localhost:5017"
+2022-06-12 15:09:16.134 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-06-12 15:09:16.135 +07:00 [Information] Hosting environment: "Development"
+2022-06-12 15:09:16.135 +07:00 [Information] Content root path: "/Users/liu/Bcircle/React/react-test/src/TService/"
+2022-06-12 15:12:06.314 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/ - -
+2022-06-12 15:12:06.526 +07:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"/Users/liu/Bcircle/React/react-test/src/TService/wwwroot/index.html"'
+2022-06-12 15:12:06.528 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/ - - - 200 148 text/html 217.9249ms
+2022-06-12 15:12:06.583 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/src.351cc451.css - -
+2022-06-12 15:12:06.589 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/src.c21f5558.js - -
+2022-06-12 15:12:06.613 +07:00 [Information] Sending file. Request path: '"/src.351cc451.css"'. Physical path: '"/Users/liu/Bcircle/React/react-test/src/TService/wwwroot/src.351cc451.css"'
+2022-06-12 15:12:06.614 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/src.351cc451.css - - - 200 690939 text/css 31.0829ms
+2022-06-12 15:12:06.666 +07:00 [Information] Sending file. Request path: '"/src.c21f5558.js"'. Physical path: '"/Users/liu/Bcircle/React/react-test/src/TService/wwwroot/src.c21f5558.js"'
+2022-06-12 15:12:06.666 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/src.c21f5558.js - - - 200 4235460 application/javascript 77.3782ms
+2022-06-12 15:12:08.269 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=ascsa - -
+2022-06-12 15:12:08.277 +07:00 [Information] Executing endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 15:12:08.303 +07:00 [Information] Route matched with "{action = \"Get\", controller = \"Test\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Get(System.String)" on controller "TService.Controllers.TestController" ("TService").
+2022-06-12 15:12:08.334 +07:00 [Information] Hello World Service : ascsa
+2022-06-12 15:12:08.337 +07:00 [Information] Executing "ObjectResult", writing value of type '"System.String"'.
+2022-06-12 15:12:08.347 +07:00 [Information] Executed action "TService.Controllers.TestController.Get (TService)" in 34.0361ms
+2022-06-12 15:12:08.348 +07:00 [Information] Executed endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 15:12:08.348 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=ascsa - - - 200 - text/plain;+charset=utf-8 79.4305ms
+2022-06-12 15:12:16.401 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=ascsa - -
+2022-06-12 15:12:16.403 +07:00 [Information] Executing endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 15:12:16.403 +07:00 [Information] Route matched with "{action = \"Get\", controller = \"Test\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Get(System.String)" on controller "TService.Controllers.TestController" ("TService").
+2022-06-12 15:12:16.407 +07:00 [Information] Hello World Service : ascsa
+2022-06-12 15:12:16.408 +07:00 [Information] Executing "ObjectResult", writing value of type '"System.String"'.
+2022-06-12 15:12:16.408 +07:00 [Information] Executed action "TService.Controllers.TestController.Get (TService)" in 1.4375ms
+2022-06-12 15:12:16.408 +07:00 [Information] Executed endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 15:12:16.408 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=ascsa - - - 200 - text/plain;+charset=utf-8 7.2321ms
+2022-06-12 15:12:16.509 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=ascsa - -
+2022-06-12 15:12:16.510 +07:00 [Information] Executing endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 15:12:16.510 +07:00 [Information] Route matched with "{action = \"Get\", controller = \"Test\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Get(System.String)" on controller "TService.Controllers.TestController" ("TService").
+2022-06-12 15:12:16.511 +07:00 [Information] Hello World Service : ascsa
+2022-06-12 15:12:16.511 +07:00 [Information] Executing "ObjectResult", writing value of type '"System.String"'.
+2022-06-12 15:12:16.512 +07:00 [Information] Executed action "TService.Controllers.TestController.Get (TService)" in 0.8806ms
+2022-06-12 15:12:16.512 +07:00 [Information] Executed endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 15:12:16.512 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=ascsa - - - 200 - text/plain;+charset=utf-8 2.3610ms
+2022-06-12 15:12:18.719 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=ascsa - -
+2022-06-12 15:12:18.719 +07:00 [Information] Executing endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 15:12:18.720 +07:00 [Information] Route matched with "{action = \"Get\", controller = \"Test\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Get(System.String)" on controller "TService.Controllers.TestController" ("TService").
+2022-06-12 15:12:18.720 +07:00 [Information] Hello World Service : ascsa
+2022-06-12 15:12:18.720 +07:00 [Information] Executing "ObjectResult", writing value of type '"System.String"'.
+2022-06-12 15:12:18.720 +07:00 [Information] Executed action "TService.Controllers.TestController.Get (TService)" in 0.4944ms
+2022-06-12 15:12:18.720 +07:00 [Information] Executed endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 15:12:18.721 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=ascsa - - - 200 - text/plain;+charset=utf-8 1.3760ms
+2022-06-12 15:12:21.538 +07:00 [Information] Application is shutting down...
+2022-06-12 15:12:54.610 +07:00 [Information] Now listening on: "https://localhost:7159"
+2022-06-12 15:12:54.650 +07:00 [Information] Now listening on: "http://localhost:5017"
+2022-06-12 15:12:54.655 +07:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-06-12 15:12:54.655 +07:00 [Information] Hosting environment: "Development"
+2022-06-12 15:12:54.656 +07:00 [Information] Content root path: "/Users/liu/Bcircle/React/react-test/src/TService/"
+2022-06-12 15:13:01.317 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/ - -
+2022-06-12 15:13:01.418 +07:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"/Users/liu/Bcircle/React/react-test/src/TService/wwwroot/index.html"'
+2022-06-12 15:13:01.452 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/ - - - 200 148 text/html 138.6431ms
+2022-06-12 15:13:01.473 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/src.5691d03c.js - -
+2022-06-12 15:13:01.525 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/src.351cc451.css - -
+2022-06-12 15:13:01.546 +07:00 [Information] Sending file. Request path: '"/src.351cc451.css"'. Physical path: '"/Users/liu/Bcircle/React/react-test/src/TService/wwwroot/src.351cc451.css"'
+2022-06-12 15:13:01.548 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/src.351cc451.css - - - 200 690939 text/css 22.6052ms
+2022-06-12 15:13:01.592 +07:00 [Information] Sending file. Request path: '"/src.5691d03c.js"'. Physical path: '"/Users/liu/Bcircle/React/react-test/src/TService/wwwroot/src.5691d03c.js"'
+2022-06-12 15:13:01.592 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/src.5691d03c.js - - - 200 4235421 application/javascript 119.7723ms
+2022-06-12 15:13:03.265 +07:00 [Information] Request starting HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=gng - -
+2022-06-12 15:13:03.273 +07:00 [Information] Executing endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 15:13:03.301 +07:00 [Information] Route matched with "{action = \"Get\", controller = \"Test\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Get(System.String)" on controller "TService.Controllers.TestController" ("TService").
+2022-06-12 15:13:03.325 +07:00 [Information] Hello World Service : gng
+2022-06-12 15:13:03.329 +07:00 [Information] Executing "ObjectResult", writing value of type '"System.String"'.
+2022-06-12 15:13:03.336 +07:00 [Information] Executed action "TService.Controllers.TestController.Get (TService)" in 28.9056ms
+2022-06-12 15:13:03.337 +07:00 [Information] Executed endpoint '"TService.Controllers.TestController.Get (TService)"'
+2022-06-12 15:13:03.338 +07:00 [Information] Request finished HTTP/1.1 GET http://localhost:5017/api/Test/Get?text=gng - - - 200 - text/plain;+charset=utf-8 72.7620ms
+2022-06-12 15:13:08.564 +07:00 [Information] Application is shutting down...
